@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.demo-page {
+  word-break: break-word;
+  position: relative;
+}
+.demo-page .flex-col {
+  max-width: 730px;
+}
+.demo-page button {
+  text-transform: capitalize;
+}
+.spinner {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: unset;
+  z-index: 10000;
+  background: rgba(128, 128, 128, 0.278);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

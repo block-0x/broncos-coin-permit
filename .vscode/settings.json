@@ -1,0 +1,69 @@
+// {
+//   "trunk.trunkGrayOutNonBlockingIssues": false,
+//   "redhat.telemetry.enabled": true,
+//   "workbench.colorTheme": "GitHub Dark",
+//   "solidity.packageDefaultDependenciesContractsDirectory": "src",
+//   "solidity.packageDefaultDependenciesDirectory": "lib",
+//   "files.exclude": {
+//     "**/.trunk/*out": true
+//   },
+//   "files.watcherExclude": {
+//     "**/.trunk/*out": true
+//   },
+//   "prettier-config.tip": true,
+//   "solidity-va.cockpit.view.topLevelContracts.listStyle": "tree",
+//   "solidity-va.debug.parser.showExceptions": true,
+//   "sourcegraph.basePath": "/Users/jun/workspace/w-growfit/straym/straym-20221208/",
+//   "deepl.apiKey": null,
+//   "solidity.telemetry": true,
+//   "githubPullRequests.pullBranch": "never",
+//   "chatgpt.gpt3.apiKey": "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",
+//   "chatgpt.emailAddress": "gum5588@gmail.com",
+//   "chatgpt.password": "Tomato5588",
+//   "files.trimFinalNewlines": true,
+//   "files.trimTrailingWhitespace": true,
+//   "[solidity]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[python]": {
+//     "editor.formatOnType": true
+//   },
+//   "terminal.integrated.scrollback": 1000000,
+//   "workbench.editor.enablePreview": true,
+//   "prettier.enabledLanguageIds": [
+//     "csharp",
+//     "css",
+//     "elm",
+//     "flow",
+//     "graphql",
+//     "handlebars",
+//     "java",
+//     "javascript",
+//     "javascriptreact",
+//     "json",
+//     "jsonc",
+//     "less",
+//     "markdown",
+//     "mdx",
+//     "php",
+//     "postcss",
+//     "ruby",
+//     "scss",
+//     "solidity",
+//     "svelte",
+//     "svg",
+//     "typescript",
+//     "typescriptreact",
+//     "twig",
+//     "vue",
+//     "xml",
+//     "yaml"
+//   ],
+//   "prettier-config.tool": "npm",
+//   "html.format.indentInnerHtml": true,
+//   "eslint.run": "onSave",
+//   "editor.formatOnSaveMode": "modificationsIfAvailable",
+//   "files.autoSave": "afterDelay",
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "editor.formatOnSave": true
+// }

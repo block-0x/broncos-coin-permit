@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AccessControlRegistryUpgradeable",
+  "sourceName": "contracts/AccessControl/AccessControlRegistryUpgradeable.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint16",
+          "name": "version",
+          "type": "uint16"
+        },
+        {
+          "indexed": true,
+          "internalType": "contract AccessControlUpgradeable",
+          "name": "accessController",
+          "type": "address"
+        }
+      ],
+      "name": "AccessControlUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "version",
+          "type": "uint8"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "AccessControlVersion",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "name": "accessController",
+      "outputs": [
+        {
+          "internalType": "contract AccessControlUpgradeable",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060f88061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80635fdf6ba3146037578063a3484ff114605c575b600080fd5b60335460449061ffff1681565b60405161ffff90911681526020015b60405180910390f35b608260673660046099565b6034602052600090815260409020546001600160a01b031681565b6040516001600160a01b0390911681526020016053565b60006020828403121560aa57600080fd5b813561ffff8116811460bb57600080fd5b939250505056fea26469706673582212201c4ffd69a0c13710626b3c4be418468302877db721e1ee817652904c2481926464736f6c63430008130033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80635fdf6ba3146037578063a3484ff114605c575b600080fd5b60335460449061ffff1681565b60405161ffff90911681526020015b60405180910390f35b608260673660046099565b6034602052600090815260409020546001600160a01b031681565b6040516001600160a01b0390911681526020016053565b60006020828403121560aa57600080fd5b813561ffff8116811460bb57600080fd5b939250505056fea26469706673582212201c4ffd69a0c13710626b3c4be418468302877db721e1ee817652904c2481926464736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
